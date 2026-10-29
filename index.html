@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aura Brew — Crafting every sip with intention. Artisanal coffee shop specializing in ethically sourced, small-batch roasted coffee.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Images/latte-art.png" type="image/x-icon">
+        <title>Aura Brew | Coffee Shop</title>
+    </head>
+    <body>
+
+        <nav id="top-nav">
+            <div class="nav-inner">
+                <div class="nav-left">
+                    <img src="Images/logo.jpg" class="logo" alt="Aura Brew Logo">
+                    <span class="brand-name">Aura Brew</span>
+                </div>
+                <div class="nav-right" id="nav-right">
+                    <ul id="nav-links">
+                        <li><a href="#" class="nav-link">Home</a></li>
+                        <li><a href="#menu" class="nav-link">Menu</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="btn-nav">Order Now</button>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <main>
+
+            <!-- ===== Hero Section ===== -->
+            <section class="hero" id="home">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Crafting Every Sip <br>with Intention.</h1>
+                    <p>
+                        Experience the art of artisanal roasting in every cup. From ethically sourced beans to your morning ritual, we bring soul to your coffee.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-1">Order Now</button>
+                        <button class="btn-2">View Menu</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== Featured Coffee Section ===== -->
+            <section class="Curated" id="menu">
+                <div class="hid reveal">
+                    <span>Our Curated Selection</span>
+                    <h2>Our Signature Brews</h2>
+                </div>
+                <div class="m-card">
+                    <!-- Card 1 -->
+                    <div class="card reveal" style="transition-delay: 100ms;">
+                        <div class="photo">
+                            <img src="Images/Classic Espresso.jpg" alt="Classic Espresso">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <h2>Classic Espresso</h2>
+                                <span class="price">$4.50</span>
+                            </div>
+                            <p>
+                                Bold, concentrated shots with a thick, golden crema. Sourced from our Ethiopian highlands.
+                            </p>
+                            <button class="btn">Add to Order</button>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card reveal" style="transition-delay: 200ms;">
+                        <div class="photo">
+                            <img src="Images/Velvet Latte.jpg" alt="Velvet Latte">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <h2>Velvet Latte</h2>
+                                <span class="price">$5.75</span>
+                            </div>
+                            <p>
+                                Silky smooth steamed milk poured over our signature espresso blend for a balanced finish.
+                            </p>
+                            <button class="btn">Add to Order</button>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card reveal" style="transition-delay: 300ms;">
+                        <div class="photo">
+                            <img src="Images/Artisan Cold Brew.jpg" alt="Artisan Cold Brew">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <h2>Artisan Cold Brew</h2>
+                                <span class="price">$6.25</span>
+                            </div>
+                            <p>
+                                Slow-steeped for 18 hours, resulting in a low-acid, naturally sweet, and incredibly smooth cup.
+                            </p>
+                            <button class="btn">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== About / Aura Story Section ===== -->
+            <section class="Aura-Story" id="about">
+                <div class="man reveal">
+                    <img src="Images/man.jpg" class="img-man" alt="Our Master Roaster">
+                    <div class="roastor">
+                        <p>"Quality is not an act, it is a habit."</p>
+                        <span>— Our Roaster</span>
+                    </div>
+                </div>
+                <div class="Story reveal">
+                    <span class="titi">Our Heritage</span>
+                    <h2>The Aura Story</h2>
+                    <p>
+                        Founded on the belief that coffee is more than just a morning kickstart—it's a moment of clarity in a busy world. Aura Brew was born from a passion for the small details that make a cup extraordinary.
+                    </p>
+                    <p>
+                        We partner directly with small-scale farmers who share our commitment to sustainability and regenerative practices. Every bean is roasted in small batches at our local studio, ensuring that the unique aura of each origin is preserved.
+                    </p>
+                    <a href="#" class="discover-link">Discover Our Process <span class="arrow">→</span></a>
+                </div>
+            </section>
+
+            <!-- ===== Testimonials Section ===== -->
+            <section class="testimonials">
+                <div class="testimonials-inner">
+                    <div class="section-heading reveal">
+                        <h2>What Our Community Says</h2>
+                    </div>
+                    <div class="testimonials-grid">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card reveal">
+                            <div class="quote-icon">
+                                <span class="material-symbols-outlined">format_quote</span>
+                            </div>
+                            <p class="testimonial-text">
+                                "The ambiance at Aura Brew is unmatched. It's the only place where I can truly focus while enjoying the best Velvet Latte in the city."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">EM</div>
+                                <div class="author-info">
+                                    <p class="author-name">Elena Martinez</p>
+                                    <p class="author-title">Local Architect</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2 (featured) -->
+                        <div class="testimonial-card reveal" style="transition-delay: 100ms;">
+                            <div class="quote-icon">
+                                <span class="material-symbols-outlined">format_quote</span>
+                            </div>
+                            <p class="testimonial-text">
+                                "Their commitment to ethical sourcing is what brought me in, but the intentional craftsmanship behind every single brew is what keeps me coming back."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">JR</div>
+                                <div class="author-info">
+                                    <p class="author-name">James Reed</p>
+                                    <p class="author-title">Coffee Enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-card reveal" style="transition-delay: 200ms;">
+                            <div class="quote-icon">
+                                <span class="material-symbols-outlined">format_quote</span>
+                            </div>
+                            <p class="testimonial-text">
+                                "Aura Brew isn't just a coffee shop; it's a sanctuary. Every sip feels like a ritual designed for mindfulness and peace."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">SC</div>
+                                <div class="author-info">
+                                    <p class="author-name">Sarah Chen</p>
+                                    <p class="author-title">Wellness Blogger</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== Gallery Section ===== -->
+            <section class="gallery">
+                <div class="gallery-inner">
+                    <div class="gallery-header reveal">
+                        <div class="gallery-title">
+                            <span class="gallery-label">Atmosphere</span>
+                            <h2>Captured Moments</h2>
+                        </div>
+                        <p class="gallery-desc">Follow our journey and peek inside the daily rituals at Aura Brew. @aurabrewcoffee</p>
+                    </div>
+                    <div class="gallery-grid reveal">
+                        <div class="gallery-item">
+                            <img src="Images/Classic Espresso.jpg" alt="Aura Brew Cafe Interior">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Images/Velvet Latte.jpg" alt="Coffee and Journal at Aura Brew">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Images/Artisan Cold Brew.jpg" alt="Barista pouring latte art at Aura Brew">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== Contact Section ===== -->
+            <section class="contact" id="contact">
+                <div class="contact-inner reveal">
+                    <div class="contact-grid">
+                        <!-- Contact Info -->
+                        <div class="contact-info">
+                            <h2>Visit Our Space</h2>
+                            <p class="contact-desc">We'd love to host you in our sanctuary. Come by for a brew or reach out for wholesale inquiries.</p>
+                            <ul class="contact-list">
+                                <li>
+                                    <span class="material-symbols-outlined contact-icon">location_on</span>
+                                    <div>
+                                        <p class="contact-detail-title">124 Artisans Way</p>
+                                        <p class="contact-detail-sub">Roasters District, CA 90210</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined contact-icon">schedule</span>
+                                    <div>
+                                        <p class="contact-detail-title">Mon - Fri: 7am — 6pm</p>
+                                        <p class="contact-detail-sub">Sat - Sun: 8am — 5pm</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Contact Form -->
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Your email">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea rows="4" placeholder="Your message..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ===== Footer ===== -->
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="Images/logo.jpg" alt="Aura Brew Logo" class="footer-logo-img">
+                        <span class="brand-name">Aura Brew</span>
+                    </div>
+                    <p class="footer-tagline">Crafting intentional moments through the art of artisanal coffee.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Join our community for brewing tips and exclusive releases.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email address">
+                        <button class="newsletter-btn">→</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Aura Brew. Crafted with intention.</p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Scroll Reveal effect
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+            // Navigation background change on scroll
+            window.addEventListener('scroll', () => {
+                const nav = document.getElementById('top-nav');
+                if (window.scrollY > 50) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            });
+
+            // Hamburger menu toggle
+            const hamburger = document.getElementById('hamburger');
+            const navRight  = document.getElementById('nav-right');
+
+            hamburger.addEventListener('click', () => {
+                const isOpen = navRight.classList.toggle('nav-open');
+                hamburger.classList.toggle('is-active');
+                hamburger.setAttribute('aria-expanded', isOpen);
+            });
+
+            // Close menu when any nav link is clicked
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    navRight.classList.remove('nav-open');
+                    hamburger.classList.remove('is-active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu when clicking outside nav
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('#top-nav')) {
+                    navRight.classList.remove('nav-open');
+                    hamburger.classList.remove('is-active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                }
+            });
+        </script>
+
+    </body>
+</html>
